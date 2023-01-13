@@ -26,7 +26,7 @@ def sendMail():
     index = 0
     for i in range(3):
 
-        email_user = "4nm18cs199@nmamit.in"  # email id
+        email_user = "email id here"  # email id
 
         nameString = names[index]
         emailIdString = email[index]
@@ -43,7 +43,7 @@ def sendMail():
         server.starttls()
 
         # generate password and attach -> keep 2FA on and generate app password and paste here!
-        server.login(email_user, 'vvczscozlfuhebas')
+        server.login(email_user, 'password here !') #Generated 2FA password.
         server.sendmail(email_user, emailIdString, text)
         server.quit()
         # set your sending time in UTC
