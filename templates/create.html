@@ -1,7 +1,9 @@
 {% extends 'base.html' %}
 {% block content %}
 <div class="container">
+  <br>
   <h1>Create Template</h1>
+  <br>
   <form method="POST" action="{{ url_for('create') }}">
     {{ form.hidden_tag() }}
     <div class="form-group">
@@ -10,6 +12,7 @@
       {% for error in form.subject.errors %}
       <span class="text-danger">{{ error }}</span>
       {% endfor %}
+      <br>
     </div>
     <div class="form-group">
       <label for="body">Body:</label>
@@ -18,6 +21,8 @@
       <span class="text-danger">{{ error }}</span>
       {% endfor %}
     </div>
+    <br>
+    <br>
     <button type="submit" class="btn btn-primary">Preview</button>
   </form>
 </div>
