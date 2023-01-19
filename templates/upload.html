@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+    <h1>Upload Recipient List</h1>
+    <form method="POST" enctype="multipart/form-data" action="{{ url_for('upload') }}">
+        {{ form.hidden_tag() }}
+        <div class="form-group">
+            <label for="file">Select a file to upload:</label>
+            <input type="file" class="form-control-file" name="file" id="file">
+            {% for error in form.file.errors %}
+            <span class="text-danger">{{ error }}</span>
+            {% endfor %}
+        </div>
+        <button type="submit" class="btn btn-primary">Upload</button>
+    </form>
+</div>
+{% endblock %}

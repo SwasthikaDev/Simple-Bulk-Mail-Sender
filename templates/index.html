@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+    <h1>Welcome to the Email Notification System</h1>
+    <p>Here you can create email templates, upload recipients list, and schedule the bulk emails to be sent.</p>
+    <div class="row">
+        <div class="col-sm-4">
+            <h2>Create Templates</h2>
+            <p>Create custom email templates using our template editor.</p>
+            <a href="{{ url_for('create') }}" class="btn btn-primary">Create Templates</a>
+        </div>
+        <div class="col-sm-4">
+            <h2>Upload Recipients</h2>
+            <p>Upload a list of recipients in an excel file.</p>
+            <a href="{{ url_for('upload') }}" class="btn btn-primary">Upload Recipients</a>
+        </div>
+        <div class="col-sm-4">
+            <h2>Schedule Emails</h2>
+            <p>Schedule emails to be sent at a specific time.</p>
+            <a href="{{ url_for('schedule') }}" class="btn btn-primary">Schedule Emails</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
