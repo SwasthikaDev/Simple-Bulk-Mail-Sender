@@ -1,3 +1,19 @@
-Bulk-Mail-Sender
-Sends mail to people in bulk, with their their details being fetched from excel sheet and the template given in the docx for the mail. This can be further extended to a datbase and bulk mails can be sent to people, with certain template. The index file can be modified to get required data from database.
-Alert - It isn't Simple Anymore :lol 
+#Not So Simple Anymore!!! 
+
+
+Hi, this is a bulk email sender with features including creating a template, uploading the list of recipents - just like in the excel file and scheduling these mails.
+It  is able to send maximum upto 500 mails at a time, and send based on priority as well!! 
+
+To avail all these features you need to register yourself as a user first and login. 
+
+Do run create_tables.py before running the flask application.
+
+Commands:
+
+Creating the table :
+python create_tables.py
+
+Running the flask Application:
+flask run
+
+Requirements are/will be updated in requirements.txt
