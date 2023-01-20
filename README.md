@@ -54,12 +54,3 @@
 
 <p>This code is for demonstration purposes only and should not be used in production environments without proper testing and security measures in place.</p>
 
-<video id="myVideo" width="320" height="240" controls>
-  <source src="https://drive.google.com/file/d/1X9Nf8x-yySQr3MV6cK-aEapu8spfidzm/view" type="video/mp4">
-  <source src="path/to/video.ogg" type="video/ogg">
-  Your browser does not support the video tag.
-</video>
-<script>
-  var myVideo = document.getElementById("myVideo");
-  myVideo.play();
-</script>
