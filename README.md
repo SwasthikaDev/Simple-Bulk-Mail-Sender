@@ -1,21 +1,55 @@
-#Not So Simple Anymore!!! 
+<h1>Bulk Email Notification System</h1>
+<p>This application is designed to make the process of sending bulk emails as simple and efficient as possible. It allows users to draft and compile emails using pre-defined templates, schedule emails to be sent at a specific time, and prioritize emails based on importance.</p>
 
+<h2>Features</h2>
+<ul>
+  <li>Draft and compile emails using pre-defined templates</li>
+  <li>Schedule emails to be sent at a specific time</li>
+  <li>Prioritize emails based on importance</li>
+  <li>User authentication and authorization</li>
+  <li>Compliance with regulations for sending bulk emails like CAN-SPAM in US and GDPR in EU</li>
+</ul>
 
-Hi, this is a bulk email sender with features including creating a template, uploading the list of recipents - just like in the excel file and scheduling these mails.
-It  is able to send maximum upto 500 mails at a time, and send based on priority as well!! 
+<h2>Technologies</h2>
+<ul>
+  <li>Flask web framework</li>
+  <li>SQLite database</li>
+  <li>Flask-Login library for handling user authentication and authorization</li>
+  <li>smtplib library for sending emails via the Gmail SMTP server</li>
+  <li>apscheduler library for scheduling the sending of emails</li>
+</ul>
 
-To avail all these features you need to register yourself as a user first and login. 
+<h2>Installation</h2>
+<ol>
+  <li>Clone the repository
+    <pre>git clone https://github.com/[username]/bulk-email-notification-system.git</pre>
+  </li>
+  <li>Install the required packages
+    <pre>pip install -r requirements.txt</pre>
+  </li>
+  <li>Run the application
+    <pre>python app.py</pre>
+  </li>
+</ol>
 
-Do run create_tables.py before running the flask application.
+<h2>Usage</h2>
+<ol>
+  <li>Register for an account or login if you already have one.</li>
+  <li>Create a new email template by navigating to <code>/create</code></li>
+  <li>Preview the template before sending by navigating to <code>/preview</code></li>
+  <li>Upload a CSV file with recipient information by navigating to <code>/upload</code></li>
+  <li>Schedule the sending of emails and/or send immediately</li>
+</ol>
 
-Commands:
+<h2>Contributing</h2>
+<p>Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.</p>
 
-Creating the table :
-python create_tables.py
+<p>Please make sure to update tests as appropriate.</p>
 
-Running the flask Application:
-flask run
+<h2>License</h2>
+<p><a href="https://choosealicense.com/licenses/mit/">MIT</a></p>
 
-Requirements are/will be updated in requirements.txt
+<h2>Note</h2>
+<p>Don't forget to replace gmail_user and gmail_password in config.py with your own credentials.</p>
 
-This was developed as a part of a hackathon by Wells Fargo in collaboration with  IIT Madras- https://unstop.com/hackathon/wells-fargo-hackathon-shaastra-2023-indian-institute-of-technology-iit-madras-575880
+<p>This code is for demonstration purposes only and should not be used in production environments without proper testing and security measures in place.</p>
