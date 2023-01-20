@@ -22,13 +22,13 @@
 <h2>Installation</h2>
 <ol>
   <li>Clone the repository
-    <pre>git clone https://github.com/[username]/bulk-email-notification-system.git</pre>
+    <pre>git clone https://github.com/[username]/Simple-Bulk-Mail-Sender.git</pre>
   </li>
   <li>Install the required packages
     <pre>pip install -r requirements.txt</pre>
   </li>
   <li>Run the application
-    <pre>python app.py</pre>
+    <pre>flask run</pre>
   </li>
 </ol>
 
