@@ -1,4 +1,4 @@
-<h1>Bulk Email Notification System</h1>
+<h1>Simple Bulk Mail Sender</h1>
 <p>This application is designed to make the process of sending bulk emails as simple and efficient as possible. It allows users to draft and compile emails using pre-defined templates, schedule emails to be sent at a specific time, and prioritize emails based on importance.</p>
 
 <h2>Features</h2>
