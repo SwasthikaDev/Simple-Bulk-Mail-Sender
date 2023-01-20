@@ -1,0 +1,10 @@
+body.dark-mode {
+    background-color: #212529;
+    color: #fff;
+}
+
+.dark-mode .alert {
+    background-color: #343a40;
+    color: #fff;
+    border-color: #fff;
+}
