@@ -18,4 +18,4 @@ flask run
 
 Requirements are/will be updated in requirements.txt
 
-This was developed as a part of a hackathon by Wells Fargo - https://unstop.com/hackathon/wells-fargo-hackathon-shaastra-2023-indian-institute-of-technology-iit-madras-575880
+This was developed as a part of a hackathon by Wells Fargo in collaboration with  IIT Madras- https://unstop.com/hackathon/wells-fargo-hackathon-shaastra-2023-indian-institute-of-technology-iit-madras-575880
