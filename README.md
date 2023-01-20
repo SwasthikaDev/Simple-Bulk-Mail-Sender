@@ -38,7 +38,7 @@
   <li>Create a new email template by navigating to <code>/create</code></li>
   <li>Preview the template before sending by navigating to <code>/preview</code></li>
   <li>Upload a CSV file with recipient information by navigating to <code>/upload</code></li>
-  <li>Schedule the sending of emails and/or send immediately</li>
+  <li>Schedule the sending of emails and/or send immediatelyby navigating to <code>/schedule</code></li>
 </ol>
 
 <h2>Contributing</h2>
