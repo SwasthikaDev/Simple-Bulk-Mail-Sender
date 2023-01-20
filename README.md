@@ -49,6 +49,10 @@
 <h2>License</h2>
 <p><a href="https://choosealicense.com/licenses/mit/">MIT</a></p>
 
+<h2>Video Link</h2>
+<p><a href=Shrikrishna says:
+https://drive.google.com/file/d/1X9Nf8x-yySQr3MV6cK-aEapu8spfidzm/view?usp=sharing">Video Link</a></p>
+
 <h2>Note</h2>
 <p>Don't forget to replace gmail_user and gmail_password in config.py with your own credentials.</p>
 
