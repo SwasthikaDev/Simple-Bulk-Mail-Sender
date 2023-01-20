@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+<br><br>
+<div class="container">
+  <h1>Preview</h1>
+  <div class="card">
+    <div class="card-header">
+      Subject: {{ template.subject }}
+    </div>
+    <div class="card-body">
+      {{ template.body }}
+    </div>
+  </div>
+  <br>
+  <br><br>
+  <a href="{{ url_for('create') }}" class="btn btn-secondary">Edit</a>
+  <a href="{{ url_for('send') }}" class="btn btn-primary">Send</a>
+</div>
+{% endblock %}
