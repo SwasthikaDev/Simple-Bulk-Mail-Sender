@@ -22,10 +22,13 @@
 <h2>Installation</h2>
 <ol>
   <li>Clone the repository
-    <pre>git clone https://github.com/[username]/Simple-Bulk-Mail-Sender.git</pre>
+    <pre>git clone https://github.com/SwasthikaDev/Simple-Bulk-Mail-Sender.git</pre>
   </li>
   <li>Install the required packages
     <pre>pip install -r requirements.txt</pre>
+  </li>
+  <li>Create database
+    <pre>python create_tables.py</pre>
   </li>
   <li>Run the application
     <pre>flask run</pre>
@@ -49,7 +52,7 @@
 <h2>License</h2>
 <p><a href="https://choosealicense.com/licenses/mit/">MIT</a></p>
 
-<h2>Video Link</h2>
+<h2>Video Deomnstration/h2>
 <p><a href="https://drive.google.com/file/d/1X9Nf8x-yySQr3MV6cK-aEapu8spfidzm/view?usp=sharing">Video Link</a></p>
 
 <h2>Note</h2>
