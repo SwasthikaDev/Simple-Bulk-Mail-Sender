@@ -1,2 +1,2 @@
-gmail_user = 'shashankvenur@gmail.com'
-gmail_password = 'ztkqhczziwwehpku'
+gmail_user = 'Add Your Gmail Here' 
+gmail_password = 'Add Password Here' #Generate password using 2FA from your google account
